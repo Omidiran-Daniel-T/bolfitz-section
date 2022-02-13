@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.mobile1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("mobile1.png");
+  background-size: cover;
+  background-position: center;
+}
+.shad {
+  background-image: linear-gradient(
+    rgb(0, 0, 0, 0),
+    rgb(0, 0, 0, 0),
+    rgb(0, 0, 0, 0),
+    rgb(0, 0, 0, 0),
+    rgb(0, 0, 0, 0),
+    rgb(0, 0, 0, 0),
+    rgb(0, 0, 0, 0.9),
+    rgb(0, 0, 0, 0.9)
+  );
+}
+.shad-desk {
+  background-image: linear-gradient(
+    to left,
+    rgb(16, 22, 34, 0.1),
+    rgb(16, 22, 34, 0.2),
+    rgb(16, 22, 34, 0.3),
+    rgb(16, 22, 34, 0.5),
+    rgb(16, 22, 34, 0.7),
+    rgb(16, 22, 34, 0.9),
+    rgb(16, 22, 34, 0.9),
+    rgb(16, 22, 34),
+    rgb(16, 22, 34)
+  );
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.desk-left {
+  background-color: #101622;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.play-now {
+  background-color: #ff10f0;
 }
